@@ -1,4 +1,4 @@
-# 🎓 Intrisic Motivation I Comparative Study – Traditional Class vs. RiskGuard Game
+# 🎓 Intrinsic Motivation Inventory Questionnaire | Comparative Study – Traditional Class vs. RiskGuard Game
 
 This repository contains the initial analysis for a study comparing the effectiveness and impact of a game ("RiskGuard") to a traditional class format on the topic of **Web Application Security**, specifically focusing on **Software Vulnerabilities and Security Patterns**.
 
