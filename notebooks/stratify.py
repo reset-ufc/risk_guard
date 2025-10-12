@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Ler o arquivo CSV
-df = pd.read_excel(r"C:\Users\mario\Documents\estudos\ufc\risk_guard\data\experimento.xlsx", sheet_name="amostragem")
+df = pd.read_excel(r"..\data\experimento.xlsx", sheet_name="amostragem")
 
 # 2. Calcular a mediana (ou Q3 se quiser mudar)
 threshold = df["Nota do IRA Individual"].median()
@@ -34,6 +34,6 @@ final_df = pd.concat([alto, baixo], ignore_index=True)
 final_df = final_df.sample(frac=1, random_state=42).reset_index(drop=True)
 
 # 8. Salvar resultado final
-final_df.to_excel(r"C:\Users\mario\Documents\estudos\ufc\risk_guard\data\classificacao_final.xlsx", index=False)
+final_df.to_excel(r"..\data\classificacao_final.xlsx", index=False)
 
 print("✅ Classificação concluída e salva em classificacao_final.xlsx")
