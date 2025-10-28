@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Ler o arquivo CSV
-df = pd.read_excel(r"..\data\experimento.xlsx", sheet_name="amostragem")
+df = pd.read_excel(r"..\data\experimento_Anon.xlsx", sheet_name="amostragem")
 
 # 2. Calcular a mediana (ou Q3 se quiser mudar)
 threshold = df["Nota do IRA Individual"].median()
