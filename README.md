@@ -17,7 +17,12 @@ This repository contains the analysis supporting the paper “RiskGuard: A Card-
 
 - **`figures/`**  
   - `boxplots_imi.png`: Motivation subscale comparison plots  
-  - `learning_gain_distribution.png`: Learning outcomes visualization  
+  - `learning_gain_distribution.png`: Learning outcomes visualization
+
+- **`game_material/`** : contain the cards, and game rules 
+
+- **`study_artifacts/`** : contain the main study artifacts
+
 
 ## 📝 Description
 
