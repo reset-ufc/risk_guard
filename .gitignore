@@ -172,5 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# De-anonymizing artifacts (real participant names) — never publish
 anon.py
 notebooks/anon.py
+data/nomes.json
