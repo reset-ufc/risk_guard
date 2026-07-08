@@ -1,33 +1,33 @@
 Name,Program,Individual academic performance index (IRA),IRA band,Group
-P20,Analise e Desenvolvimento de Sistemas,8.14,Baixo,Controle
-P2,Segurança da Informação,8.5433,Alto,Controle
-P30,Segurança da Informação,8.772,Alto,Controle
-P1,Analise e Desenvolvimento de Sistemas,9.2067,Alto,Controle
-P14,Analise e Desenvolvimento de Sistemas,8.2627,Baixo,Controle
-P27,Analise e Desenvolvimento de Sistemas,8.86,Alto,Controle
-P34,Segurança da Informação,8.5733,Alto,Controle
-P17,Analise e Desenvolvimento de Sistemas,7.2179,Baixo,Controle
-P38,Segurança da Informação,7.7,Baixo,Controle
-P36,Analise e Desenvolvimento de Sistemas,9.4633,Alto,Controle
-P26,Analise e Desenvolvimento de Sistemas,9.2233,Alto,Controle
-P19,Analise e Desenvolvimento de Sistemas,8.0821,Baixo,Controle
-P12,Segurança da Informação,8.66,Alto,Controle
-P9,Segurança da Informação,8.0433,Baixo,Controle
-P6,Analise e Desenvolvimento de Sistemas,8.2267,Baixo,Controle
-P39,Analise e Desenvolvimento de Sistemas,7.44,Baixo,Controle
-P11,Analise e Desenvolvimento de Sistemas,7.7467,Baixo,Experimental
-P18,Segurança da Informação,8.5767,Alto,Experimental
-P3,Analise e Desenvolvimento de Sistemas,9.3787,Alto,Experimental
-P8,Segurança da Informação,8.2667,Alto,Experimental
-P31,Analise e Desenvolvimento de Sistemas,8.6633,Alto,Experimental
-P7,Segurança da Informação,8.3567,Alto,Experimental
-P5,Analise e Desenvolvimento de Sistemas,7.3467,Baixo,Experimental
-P13,Segurança da Informação,7.4241,Baixo,Experimental
-P29,Segurança da Informação,8.3,Alto,Experimental
-P16,Segurança da Informação,7.2827,Baixo,Experimental
-P4,Analise e Desenvolvimento de Sistemas,7.108,Baixo,Experimental
-P41,Segurança da Informação,8.2867,Alto,Experimental
-P33,Analise e Desenvolvimento de Sistemas,7.8614,Baixo,Experimental
-P40,Segurança da Informação,6.7622,Baixo,Experimental
-P32,Analise e Desenvolvimento de Sistemas,7.6987,Baixo,Experimental
-P23,Analise e Desenvolvimento de Sistemas,8.4547,Alto,Experimental
+P20,Systems Analysis and Development,8.14,Low,Control
+P2,Information Security,8.5433,High,Control
+P30,Information Security,8.772,High,Control
+P1,Systems Analysis and Development,9.2067,High,Control
+P14,Systems Analysis and Development,8.2627,Low,Control
+P27,Systems Analysis and Development,8.86,High,Control
+P34,Information Security,8.5733,High,Control
+P17,Systems Analysis and Development,7.2179,Low,Control
+P38,Information Security,7.7,Low,Control
+P36,Systems Analysis and Development,9.4633,High,Control
+P26,Systems Analysis and Development,9.2233,High,Control
+P19,Systems Analysis and Development,8.0821,Low,Control
+P12,Information Security,8.66,High,Control
+P9,Information Security,8.0433,Low,Control
+P6,Systems Analysis and Development,8.2267,Low,Control
+P39,Systems Analysis and Development,7.44,Low,Control
+P11,Systems Analysis and Development,7.7467,Low,Experimental
+P18,Information Security,8.5767,High,Experimental
+P3,Systems Analysis and Development,9.3787,High,Experimental
+P8,Information Security,8.2667,High,Experimental
+P31,Systems Analysis and Development,8.6633,High,Experimental
+P7,Information Security,8.3567,High,Experimental
+P5,Systems Analysis and Development,7.3467,Low,Experimental
+P13,Information Security,7.4241,Low,Experimental
+P29,Information Security,8.3,High,Experimental
+P16,Information Security,7.2827,Low,Experimental
+P4,Systems Analysis and Development,7.108,Low,Experimental
+P41,Information Security,8.2867,High,Experimental
+P33,Systems Analysis and Development,7.8614,Low,Experimental
+P40,Information Security,6.7622,Low,Experimental
+P32,Systems Analysis and Development,7.6987,Low,Experimental
+P23,Systems Analysis and Development,8.4547,High,Experimental
