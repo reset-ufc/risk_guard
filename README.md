@@ -51,14 +51,14 @@ The analysis pipeline includes:
 
 ## 🧩 Research Questions
 
-### **RQ1 — Does RiskGuard improve students’ learning outcomes compared to a traditional lecture format?**
+### **RQ1 — To what extent does the adoption of RiskGuard as an educational instrument support students’ learning of security patterns and software vulnerabilities?**
 
 To answer RQ1, we tested two hypotheses:  
 - **H₀:** There is no significant difference in participants’ learning between the two approaches (with and without RiskGuard).  
 - **H₁:** There is a significant difference in learning outcomes between the two approaches.
 
 **Learning Measurement:**  
-Learning was measured through two *Knowledge Assessment Forms*: one after the traditional lecture and another after the RiskGuard session. Each form contained 12 multiple-choice questions. Learning gain was calculated as the difference between post-game and post-lecture scores (ranging from –12 to +12).  
+Learning was measured through two *Knowledge Assessment Questionnaires*: one after the traditional lecture and another after the RiskGuard session. Each form contained 12 multiple-choice questions. Learning gain was calculated as the difference between post-game and post-lecture scores (ranging from –12 to +12).  
 We also computed the **normalized gain (g)** = (Post – Pre) / (Max – Pre), with *Max = 12*, allowing a relative measure of learning improvement.
 
 We controlled for two moderating factors:  
@@ -67,7 +67,7 @@ We controlled for two moderating factors:
 
 We further examined whether learning gains differed by **experience level** (Less- vs. More-experienced), by **academic performance** (Low vs. High IRA), and by a combined **experience × performance profile** (compared with the Kruskal–Wallis test). Normality was checked with the Shapiro–Wilk test; independent-group comparisons used **Welch’s** *t*-test, paired comparisons used the paired *t*-test / Wilcoxon signed-rank test, and the Mann–Whitney U test was used as the non-parametric alternative. Effect sizes are reported via Cohen’s *d* or rank-biserial correlation.
 
-### **RQ2 — Does the use of RiskGuard influence students’ motivation compared to traditional instruction?**
+### **RQ2 — How does the use of RiskGuard influence students’ motivation to learn about security patterns and software vulnerabilities?**
 
 RQ2 focused on whether RiskGuard enhanced **intrinsic motivation** as measured by IMI subscales.
 
@@ -90,7 +90,7 @@ Each IMI subscale (INT, CMP, EFF, VAL, PRS) had its own hypothesis pair (H₀/H�
 
 This analysis triangulates motivational data across both experimental and control conditions to ensure that observed differences are attributable to RiskGuard rather than external classroom effects.
 
-### **RQ3 — How do participants perceive RiskGuard as a learning tool?**
+### **RQ3 — What are students’ perceptions of the effectiveness of RiskGuard as a learning instrument for security patterns and software vulnerabilities?**
 
 RQ3 explores participants’ perceptions of the RiskGuard experience through a **feedback questionnaire** with six open-ended questions covering satisfaction, engagement, real-world applicability, ease of use, physical vs. digital format, and suggested improvements.
 
