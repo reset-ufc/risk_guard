@@ -6,7 +6,7 @@ This repository contains the analysis supporting the paper “RiskGuard: A Card-
 
 - **`data_en/`** — anonymized study data in **English** (CSV). These are the files the notebooks read.
   - `experiment_Anon.csv`: group assignment (control/experimental) with course and academic performance (IRA)
-  - `IMI_TradictioalLecture_Anon.csv`: IMI responses from the traditional lecture
+  - `IMI_TraditionalLecture_Anon.csv`: IMI responses from the traditional lecture
   - `IMI_RiskGuard_Anon.csv`: IMI responses from the RiskGuard session
   - `KnowledgeAssessment_pre_Anon.csv` / `KnowledgeAssessment_post_Anon.csv`: knowledge test results (pre/post)
   - `CharacterizationForm_Anon.csv`: characterization form responses
