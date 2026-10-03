@@ -1,27 +1,33 @@
-import pandas as pd
+from pathlib import Path
+
 import numpy as np
+import pandas as pd
 
-df = pd.read_excel(r"..\data\experimento_Anon.xlsx", sheet_name="amostragem")
+SEED = 42
+ROOT = Path(__file__).resolve().parent.parent
+IRA = "Individual academic performance index (IRA)"
 
-threshold = df["Nota do IRA Individual"].median()
+rng = np.random.default_rng(SEED)
 
-df["Faixa IRA"] = np.where(df["Nota do IRA Individual"] >= threshold, "Alto", "Baixo")
+df = pd.read_csv(ROOT / "data_en" / "experiment_Anon.csv")
 
-high = df[df["Faixa IRA"] == "Alto"].sample(frac=1, random_state=42).reset_index(drop=True)
-low = df[df["Faixa IRA"] == "Baixo"].sample(frac=1, random_state=42).reset_index(drop=True)
+threshold = df[IRA].median()
+
+df["IRA band"] = np.where(df[IRA] >= threshold, "High", "Low")
 
 def divide_groups(sub_df):
+    sub_df = sub_df.sample(frac=1, random_state=rng).reset_index(drop=True)
     half = len(sub_df) // 2
-    groups = ["Controle"] * half + ["Experimental"] * (len(sub_df) - half)
-    np.random.shuffle(groups)
-    sub_df["Grupo"] = groups
+    groups = np.array(["Control"] * half + ["Experimental"] * (len(sub_df) - half))
+    rng.shuffle(groups)
+    sub_df["Group"] = groups
     return sub_df
 
-high = divide_groups(high)
-low = divide_groups(low)
+high = divide_groups(df[df["IRA band"] == "High"])
+low = divide_groups(df[df["IRA band"] == "Low"])
 
 final_df = pd.concat([high, low], ignore_index=True)
 
-final_df = final_df.sample(frac=1, random_state=42).reset_index(drop=True)
+final_df = final_df.sample(frac=1, random_state=rng).reset_index(drop=True)
 
-final_df.to_excel(r"..\data\final_classification.xlsx", index=False)
+final_df.to_csv(ROOT / "notebooks" / "stratified_example.csv", index=False)

@@ -16,7 +16,7 @@ This repository contains the analysis supporting the paper “RiskGuard: A Card-
 - **`notebooks/`**  
   - `RQ1.ipynb`: analysis for RQ1 (learning outcomes)
   - `RQ2.ipynb`: analysis for RQ2 (motivation)
-  - `stratify.py`: helper used to build the stratified experimental/control split
+  - `stratify.py`: helper used to build the stratified experimental/control split. It documents the allocation procedure (median IRA split, then a random half of each band to each group); the actual allocation used in the study was drawn once and is the `Group` column of `data_en/experiment_Anon.csv`, so re-running the script will not reproduce it
   - `codebook_RQ3_standardized.xlsx` / `codebook_RQ3_standardized_en.xlsx`: RQ3 qualitative codebook (Portuguese / English) — thematic coding of the feedback responses
 
 - **`figures/`**  
